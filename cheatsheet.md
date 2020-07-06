@@ -2,6 +2,7 @@
 - [Remotes](#remotes)
   - [List Remote](#list-remote)
   - [Change Remote URL](#change-remote-url)
+  - [Remove files from staging area](#remove-files-from-staging-area)
 
 # Cherry Pick Range of Commits
 
@@ -22,4 +23,9 @@ git remote -v
 ## Change Remote URL
 ```
 git remote set-url origin <remote url>
+```
+
+## Remove files from staging area
+```
+git rm -r --cached .
 ```
